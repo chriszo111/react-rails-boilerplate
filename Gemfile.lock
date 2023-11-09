@@ -107,6 +107,9 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphiql-rails (1.9.0)
+      railties
+      sprockets-rails
     graphql (2.1.6)
       racc (~> 1.4)
     i18n (1.14.1)
@@ -256,6 +259,7 @@ DEPENDENCIES
   bootsnap (~> 1.17.0)
   capybara
   debug
+  graphiql-rails
   graphql (~> 2.1)
   image_processing (~> 1.2)
   importmap-rails
