@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: stashes
+#
+#  id          :bigint           not null, primary key
+#  strain      :string
+#  strain_type :string
+#  weight      :decimal(, )
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  user_id     :bigint           not null
+#
+# Indexes
+#
+#  index_stashes_on_user_id  (user_id)
+#
+# Foreign Keys
+#
+#  fk_rails_...  (user_id => users.id)
+#
+
+one:
+  type: 
+  strain: MyString
+  user: one
+  weight: 9.99
+
+two:
+  type: 
+  strain: MyString
+  user: two
+  weight: 9.99
